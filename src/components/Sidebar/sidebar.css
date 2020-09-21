@@ -1,0 +1,56 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.userProfile {
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 20px 20px 0;
+    padding: 15px;
+}
+
+.profileImg {
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+.userProfile em {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.navMenu {
+    background: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.navMenu ul {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.navMenu ul li {
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.loggedUser {
+    background: #A3011A;
+    border-radius: 5px;
+    color: #a56969;
+    cursor: auto !important;
+    font-style: italic;
+}
+
+.navMenu ul li:hover, .activeMenu {
+    background: #A3011A;
+    color: #ffffff;
+}

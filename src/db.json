@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "123456",
+      "isActive": true,
+      "age": 36,
+      "name": "Dunlap Hubbard",
+      "gender": "male",
+      "password": "654321",
+      "email": "dunlaphubbard@cedward.com",
+      "phone": "+1 (890) 543-2508",
+      "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
+      "accountType": "Savings"
+    },
+    {
+      "id": "246810",
+      "isActive": true,
+      "age": 24,
+      "name": "Kirsten Sellers",
+      "gender": "female",
+      "password": "018642",
+      "email": "kirstensellers@emergent.com",
+      "phone": "+1 (831) 564-2190",
+      "address": "886 Gallatin Place, Fannett, Arkansas, 4656",
+      "accountType": "Savings"
+    },
+    {
+      "id": "036912",
+      "isActive": true,
+      "age": 30,
+      "name": "Acosta Robbins",
+      "gender": "male",
+      "password": "219630",
+      "email": "acostarobbins@organica.com",
+      "phone": "+1 (882) 441-3367",
+      "address": "697 Linden Boulevard, Sattley, Idaho, 1035",
+      "accountType": "Savings"
+    }
+  ],
+  "beneficiary": [
+    {
+      "id": "1",
+      "isActive": true,
+      "name": "Dunlap Hubbard",
+      "accountType": "Savings",
+      "accountNumber": "5646766464624",
+      "ifsc": "ABC1222S",
+      "bankName": "Bank of America"
+    },
+    {
+      "id": "2",
+      "isActive": true,
+      "name": "Stephen Ronald",
+      "accountType": "Current",
+      "accountNumber": "5646766464624",
+      "ifsc": "ABC1585",
+      "bankName": "United Overseas Bank"
+    },
+    {
+      "id": "3",
+      "isActive": true,
+      "name": "Peter James",
+      "accountType": "Savings",
+      "accountNumber": "5646766464624",
+      "ifsc": "ABC1222S",
+      "bankName": "City Bank"
+    },
+    {
+      "id": "4",
+      "isActive": true,
+      "name": "Henry Mark",
+      "accountType": "Savings",
+      "accountNumber": "5646766464624",
+      "ifsc": "ABC1222S",
+      "bankName": "HDFC Bank"
+    }
+  ]
+}

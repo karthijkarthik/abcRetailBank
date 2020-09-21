@@ -1,0 +1,9 @@
+export const TOGGLE_LOADING = 'TOGGLE_LOADING';
+export const TOGGLE_LOGGED_STATUS = 'TOGGLE_LOGGED_STATUS';
+export const SET_CUSTOMER_ID = 'SET_CUSTOMER_ID';
+export const SET_PASSWORD = 'SET_PASSWORD';
+export const SET_LOGIN_ERROR = 'SET_LOGIN_ERROR';
+export const SET_USER_DETAILS = 'SET_USER_DETAILS';
+export const SET_BENEFICIARY = 'SET_BENEFICIARY';
+export const SET_PAGE = 'SET_PAGE';
+export const RESET_APP = 'RESET_APP';

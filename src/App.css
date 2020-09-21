@@ -2,13 +2,38 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 1224px;
+  margin: 0px auto;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #A3011A;
+  margin-bottom: 2%;
+  padding: 15px 30px;
+}
+
+.App-header img {
+  margin-right: 10px;
+  width: 70px;
+}
+
+.App-header span {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.spinner {
+  position: absolute;
+  top: 45%;
+}
+
+.mainContainer {
+  width: 80%;
 }
