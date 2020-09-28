@@ -1,9 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Grid, TextField, Button } from '@material-ui/core';
 
 import './login.css';
-
 import {
   setPassword,
   setCustomerId,
@@ -62,6 +62,13 @@ export const Login = ({
       </Grid>
     </div>
   );
+}
+
+Login.propTypes = {
+  userDetail: PropTypes.array,
+  dispatchSetPassword: PropTypes.func,
+  dispatchSetCustomerId: PropTypes.func,
+  dispatchValidateCustomer: PropTypes.func
 }
 
 export const mapStateToProps = state => ({

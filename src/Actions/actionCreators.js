@@ -34,3 +34,15 @@ export const validateCustomer = () => (dispatch, getState) => {
       dispatch(toggleLoader(false));
     })
 }
+
+export const addBeneficiary = () => {
+  console.log('Add Beneficiary');
+}
+
+export const updateBeneficiary = () => {
+  console.log('Update Beneficiary');
+}
+
+export const deleteBeneficiary = () => {
+  console.log('Delete Beneficiary');
+}

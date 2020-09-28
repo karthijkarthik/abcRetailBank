@@ -14,6 +14,8 @@ import Paper from '@material-ui/core/Paper';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
+import DialogComponent from '../Dialog';
+
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -108,6 +110,9 @@ const rows = [
 export default function CollapsibleTable() {
   return (
     <div className="mainContainer">
+        <DialogComponent title="Dashboard Page">
+          <span>If you haven’t spent a lot of time in React this might be a spot where you spend more time than is necessary trying to figure out how to access props in a child functional component."</span>
+        </DialogComponent>
         <TableContainer component={Paper}>
         <Table aria-label="collapsible table">
             <TableBody>

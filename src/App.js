@@ -5,6 +5,7 @@ import LoginForm from './components/Login';
 import Dashboard from './components/Dashboard';
 import Beneficiary from './components/Beneficiary';
 import Spinner from './components/Spinner';
+import Profile from './components/Profile';
 import TransactionHistory from './components/TransactionHistory';
 import Sidebar from './components/Sidebar';
 
@@ -14,7 +15,8 @@ const ComponentList = {
   LoginForm: LoginForm,
   Dashboard: Dashboard,
   Beneficiary: Beneficiary,
-  TransactionHistory: TransactionHistory
+  TransactionHistory: TransactionHistory,
+  Profile: Profile
 };
 
 export const App = ({

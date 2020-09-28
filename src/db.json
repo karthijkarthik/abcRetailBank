@@ -10,7 +10,89 @@
       "email": "dunlaphubbard@cedward.com",
       "phone": "+1 (890) 543-2508",
       "address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
-      "accountType": "Savings"
+      "accountType": "Savings",
+      "beneficiary": [
+        {
+          "id": "1",
+          "isActive": true,
+          "name": "Dunlap Hubbard",
+          "accountType": "Savings",
+          "accountNumber": "5646766464624",
+          "ifsc": "ABC1222S",
+          "bankName": "Bank of America"
+        },
+        {
+          "id": "2",
+          "isActive": true,
+          "name": "Stephen Ronald",
+          "accountType": "Current",
+          "accountNumber": "5646766464624",
+          "ifsc": "ABC1585",
+          "bankName": "United Overseas Bank"
+        },
+        {
+          "id": "3",
+          "isActive": true,
+          "name": "Peter James",
+          "accountType": "Savings",
+          "accountNumber": "5646766464624",
+          "ifsc": "ABC1222S",
+          "bankName": "City Bank"
+        },
+        {
+          "id": "4",
+          "isActive": true,
+          "name": "Henry Mark",
+          "accountType": "Savings",
+          "accountNumber": "5646766464624",
+          "ifsc": "ABC1222S",
+          "bankName": "HDFC Bank"
+        }
+      ],
+      "transactions": [
+        {
+          "date": "13 Sep 2020",
+          "narration": "kqqhy5elav7k5owvci-PayUAccelystSolution",
+          "withdrawal": 689.00,
+          "deposit": "",
+          "balance": "128,512.76"
+        },
+        {
+          "date": "12 Sep 2020",
+          "narration": "ACH D- HDFCLTD-789456123",
+          "withdrawal": 500.00,
+          "deposit": "",
+          "balance": "129,020.76"
+        },
+        {
+          "date": "11 Sep 2020",
+          "narration": "POS 123456XXXXXX0379 SBIETC",
+          "withdrawal": "",
+          "deposit": 7.50,
+          "balance": "129,520.76"
+        },
+        {
+          "date": "10 Sep 2020",
+          "narration": "POS 123456XXXXXX0379 SELVANAYAGI TRAD",
+          "withdrawal": "",
+          "deposit": 8650.00,
+          "balance": "129,512.76"
+        },
+        {
+          "date": "09 Sep 2020",
+          "narration": "CRV POS 123456******0379 MSP AGENCIES",
+          "withdrawal": "",
+          "deposit": 500.00,
+          "balance": "121,012.76"
+        },
+        {
+          "date": "08 Sep 2020",
+          "narration": "POS 123456XXXXXX0379 MSP AGENCIES",
+          "withdrawal": 500,
+          "deposit": "",
+          "balance": "120,512.76"
+        }
+      ]
     },
     {
       "id": "246810",
@@ -35,44 +117,6 @@
       "phone": "+1 (882) 441-3367",
       "address": "697 Linden Boulevard, Sattley, Idaho, 1035",
       "accountType": "Savings"
-    }
-  ],
-  "beneficiary": [
-    {
-      "id": "1",
-      "isActive": true,
-      "name": "Dunlap Hubbard",
-      "accountType": "Savings",
-      "accountNumber": "5646766464624",
-      "ifsc": "ABC1222S",
-      "bankName": "Bank of America"
-    },
-    {
-      "id": "2",
-      "isActive": true,
-      "name": "Stephen Ronald",
-      "accountType": "Current",
-      "accountNumber": "5646766464624",
-      "ifsc": "ABC1585",
-      "bankName": "United Overseas Bank"
-    },
-    {
-      "id": "3",
-      "isActive": true,
-      "name": "Peter James",
-      "accountType": "Savings",
-      "accountNumber": "5646766464624",
-      "ifsc": "ABC1222S",
-      "bankName": "City Bank"
-    },
-    {
-      "id": "4",
-      "isActive": true,
-      "name": "Henry Mark",
-      "accountType": "Savings",
-      "accountNumber": "5646766464624",
-      "ifsc": "ABC1222S",
-      "bankName": "HDFC Bank"
     }
   ]
 }
